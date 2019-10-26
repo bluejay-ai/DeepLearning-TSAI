@@ -16,7 +16,7 @@ Kernel is a tool used to extract the feature.
 We can use NxN kernels. There are combination of various factors, why 3x3 is extensively used.
 
 ### 1. Computational Exhaustive vs Accuracy
-For NxN Kernels, the number of operations needed is N^2(N additions + N Multiplications)
+For NxN Kernels, the number of operations needed is N^2 Multiplications + N-1 Additions
 Higher the N, It would be more accurate and computational exhaustive. Hence, we would need tradeoff b/w accuracy and computational power.  
 Hence, lower N is preferred. Let's say N = 1,2,3
 
